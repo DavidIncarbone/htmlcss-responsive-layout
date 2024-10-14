@@ -141,6 +141,11 @@ main {
 
 /* text */
 
+.txt-grey {
+
+    color: grey;
+}
+
 .txt-white {
 
     color: var(--color-white);
@@ -285,8 +290,15 @@ div.social-links>ul {
 
 div.social-links>ul>li {
 
-    padding: 2px 15px 2px 15px;
+    padding: 15px 15px 15px 15px;
     border-radius: 20px;
+
+    background-color: var(--color-white);
+}
+
+.social-links a {
+
+    color: black;
 }
 
 /* aside */
@@ -362,6 +374,11 @@ footer a {
 
     /* video */
 
+    .txt-ghost {
+
+        display: inline-block;
+    }
+
     .info>ul {
 
         display: flex;
@@ -375,6 +392,13 @@ footer a {
         width: calc((100% - 50px) / 3);
 
 
+    }
+
+    /* social-links */
+
+    div.social-links>ul>li {
+
+        padding: 15px 40px 15px 40px;
     }
 
     /* aside */
