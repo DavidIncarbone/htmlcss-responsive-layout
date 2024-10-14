@@ -311,6 +311,11 @@ aside {
 
 /* article */
 
+article h3 {
+
+    text-transform: uppercase;
+}
+
 hr {
 
     width: 50px;
@@ -343,6 +348,17 @@ footer a {
 .footer-container {
 
     max-width: 90%;
+}
+
+.footer-info {
+
+    padding-bottom: 15px;
+}
+
+.address {
+
+    font-size: 0.7em;
+
 }
 
 
@@ -487,6 +503,12 @@ footer a {
 
     /* footer */
 
+    footer {
+
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
     .footer-container {
 
         width: 100%;
@@ -496,7 +518,7 @@ footer a {
 
     .gap-a-footer {
 
-        gap: 35px;
+        gap: 15px;
     }
 
     footer ul {
@@ -504,9 +526,9 @@ footer a {
         align-items: center;
     }
 
-    .footer.info {
+    .footer-info {
 
-        display: block;
+        display: inline-block;
     }
 
 
