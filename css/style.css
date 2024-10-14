@@ -92,6 +92,11 @@ main {
     justify-content: center;
 }
 
+.sp-between {
+
+    justify-content: space-between;
+}
+
 .a-center {
 
     align-items: center;
@@ -140,6 +145,11 @@ main {
 /* spacer */
 
 .pd-5 {
+
+    padding: 5px;
+}
+
+.pd-15 {
 
     padding: 5px;
 }
@@ -205,11 +215,27 @@ main {
     aspect-ratio: 16 / 9;
 }
 
+/* social links */
+
+div.social-links>ul {
+
+    width: 100%;
+}
+
+div.social-links>ul>li {
+
+    padding: 2px 15px 2px 15px;
+    border-radius: 20px;
+}
+
 
 aside {
 
     display: none;
 }
+
+
+
 
 /* media query */
 
@@ -245,6 +271,11 @@ aside {
     .video {
 
         max-width: 70%;
+    }
+
+    div.social-links span {
+
+        display: inline-block;
     }
 
 
