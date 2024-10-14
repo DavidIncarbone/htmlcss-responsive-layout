@@ -1,0 +1,221 @@
+/* root */
+
+:root {
+    --color-white: #ffffff;
+    --color-bg-color: #d9d9d9;
+    --color-primary: #7c69a4;
+    --color-dark-text: #4e3969;
+    --color-black: #282529;
+    --color-contrast: #fa961a;
+    --color-icon-red: #ea5556;
+    --color-icon-blue: #2871f0;
+}
+
+/* fonts */
+
+
+.montserrat- {
+    font-family: "Montserrat",
+        "Helvetica Neue",
+        sans-serif
+}
+
+.nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* General */
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: 1px solid red;
+}
+
+body {
+
+    font-family: "Montserrat",
+        "Helvetica Neue",
+        sans-serif
+}
+
+
+img {
+
+    width: 100%;
+
+}
+
+a,
+iframe {
+
+    text-decoration: none;
+    display: block;
+}
+
+header,
+footer,
+main {
+
+    padding: 20px;
+}
+
+/* UTILITIES START */
+
+/* flex */
+
+.d-flex {
+
+    display: flex;
+
+}
+
+.wrap {
+
+    flex-wrap: wrap;
+}
+
+.j-center {
+
+    justify-content: center;
+}
+
+.a-center {
+
+    align-items: center;
+}
+
+.wrap {
+
+    flex-wrap: wrap;
+}
+
+
+/* display */
+
+.d-none {
+
+    display: none;
+}
+
+/* background */
+
+.bg-white {
+
+    background-color: var(--color-white);
+
+
+}
+
+.bg-primary {
+
+    background-color: var(--color-primary);
+}
+
+/* text */
+
+.txt-white {
+
+    color: var(--color-white);
+}
+
+.txt-grey {
+
+    color: grey;
+    font-size: 1.5em;
+}
+
+/* spacer */
+
+.pd-top-30 {
+
+    padding-top:
+}
+
+.pd-top-15 {
+
+    padding-top: 15px;
+}
+
+
+/* header */
+
+
+header,
+footer {
+
+    min-height: 70px;
+}
+
+
+
+
+h1>a {
+
+    color: var(--color-contrast);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-size: 1.5em;
+    /* font */
+}
+
+/* main */
+
+
+main {
+
+    background-color: var(--color-bg-color);
+}
+
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+aside {
+
+    display: none;
+}
+
+/* media query */
+
+/* bonus */
+
+/* @media screen and (min-width: 576px) {} */
+
+@media screen and (min-width: 768px) {
+
+    main {
+
+        padding: 40px;
+    }
+
+    header.j-space-between {
+
+        justify-content: space-between;
+    }
+
+    aside {
+
+        display: block;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .j-space-between {
+
+        justify-content: space-between;
+    }
+
+
+}
