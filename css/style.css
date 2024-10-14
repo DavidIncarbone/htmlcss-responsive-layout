@@ -36,7 +36,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    border: 1px solid red;
+
 }
 
 body {
@@ -273,6 +273,7 @@ main {
 
     background-color: var(--color-white);
     padding: 30px 15px;
+    width: 100%;
 }
 
 
@@ -381,6 +382,11 @@ footer a {
         justify-content: space-between;
     }
 
+    h1>a {
+
+        font-size: 1.7em;
+    }
+
     /* main */
 
     main {
@@ -469,6 +475,13 @@ footer a {
     .j-space-between {
 
         justify-content: space-between;
+    }
+
+    /* header */
+
+    h1>a {
+
+        font-size: 1.9em;
     }
 
     /* video */
