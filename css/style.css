@@ -9,7 +9,14 @@
     --color-contrast: #fa961a;
     --color-icon-red: #ea5556;
     --color-icon-blue: #2871f0;
+
+    --color-facebook: #1a77f3;
+    --color-twitter: #009eff;
+    --color-instagram: #eb91b3;
+    --color-pinterest: #e62222;
+    --color-youtube: #e62222;
 }
+
 
 /* fonts */
 
@@ -63,6 +70,7 @@ iframe {
 
     text-decoration: none;
     display: block;
+
 }
 
 header,
@@ -289,7 +297,7 @@ div.social-links>ul {
     width: 100%;
 }
 
-div.social-links>ul>li {
+div.social-links>ul>li>a {
 
     padding: 15px 15px 15px 15px;
     border-radius: 20px;
@@ -300,6 +308,33 @@ div.social-links>ul>li {
 .social-links a {
 
     color: black;
+}
+
+/* icons color */
+
+.fa-facebook {
+
+    color: var(--color-facebook);
+}
+
+.fa-twitter {
+
+    color: var(--color-twitter);
+}
+
+.fa-instagram {
+
+    color: var(--color-instagram);
+}
+
+.fa-pinterest {
+
+    color: var(--color-pinterest);
+}
+
+.fa-youtube {
+
+    color: var(--color-youtube);
 }
 
 /* aside */
@@ -320,7 +355,7 @@ article h3 {
 hr {
 
     width: 50px;
-    border: 1px solid red;
+    border: 1px solid var(--color-contrast);
 
 }
 
@@ -329,6 +364,8 @@ article .s-img {
     width: 50%;
     margin: 0 auto;
 }
+
+
 
 /* footer*/
 
@@ -373,7 +410,7 @@ footer a {
 
 @media screen and (min-width: 576px) {
 
-    div.social-links>ul>li {
+    div.social-links>ul>li>a {
 
         padding: 15px 25px 15px 25px;
     }
@@ -442,10 +479,15 @@ footer a {
 
     /* social-links */
 
-    div.social-links>ul>li {
+    div.social-links>ul>li>a {
 
         padding: 15px 40px 15px 40px;
 
+    }
+
+    .social-links i {
+
+        padding-right: 5px;
     }
 
     /* aside */
