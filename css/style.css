@@ -77,6 +77,11 @@ main {
 
 }
 
+.column {
+
+    flex-direction: column;
+}
+
 .wrap {
 
     flex-wrap: wrap;
@@ -134,15 +139,27 @@ main {
 
 /* spacer */
 
-.pd-top-30 {
+.pd-5 {
 
-    padding-top:
+    padding: 5px;
 }
 
 .pd-top-15 {
 
     padding-top: 15px;
 }
+
+.pd-top-30 {
+
+    padding-top: 30px;
+}
+
+.pd-bot-30 {
+
+    padding-bottom: 30px;
+}
+
+
 
 
 /* header */
@@ -180,6 +197,14 @@ main {
     margin: 0 auto;
 }
 
+/* video */
+
+.video {
+
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
 
 aside {
 
@@ -215,6 +240,11 @@ aside {
     .j-space-between {
 
         justify-content: space-between;
+    }
+
+    .video {
+
+        max-width: 70%;
     }
 
 
