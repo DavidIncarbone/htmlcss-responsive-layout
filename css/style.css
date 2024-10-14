@@ -323,4 +323,26 @@ article .s-img {
     }
 
 
+    article .s-img {
+
+        float: left;
+        width: 30%;
+        padding-right: 15px;
+
+    }
+
+    article .s-img:after {
+
+        clear: both;
+        display: block;
+        content: "";
+
+
+    }
+
+    .content {
+
+        width: 100%;
+    }
+
 }
