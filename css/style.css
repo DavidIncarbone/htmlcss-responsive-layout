@@ -371,7 +371,31 @@ footer a {
 
 /* bonus */
 
-/* @media screen and (min-width: 576px) {} */
+@media screen and (min-width: 576px) {
+
+    div.social-links>ul>li {
+
+        padding: 15px 25px 15px 25px;
+    }
+
+    article .s-img {
+
+        float: left;
+        width: 30%;
+        padding-right: 15px;
+
+    }
+
+    article .s-img:after {
+
+        clear: both;
+        display: block;
+        content: "";
+
+
+    }
+
+}
 
 @media screen and (min-width: 768px) {
 
@@ -421,6 +445,7 @@ footer a {
     div.social-links>ul>li {
 
         padding: 15px 40px 15px 40px;
+
     }
 
     /* aside */
